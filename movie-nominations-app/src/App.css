@@ -1,5 +1,5 @@
 body {
-  background: #141414;
+  background: #1d2731;
   color: #ffffff;
 }
 
@@ -31,11 +31,43 @@ body {
 .overlay {
   position: absolute;
   background: rgb(0, 0, 0, 0.8);
-  width: 100%;
+  width: 93%;
   transition: 0.5s ease;
   opacity: 0;
   bottom: 0;
   font-size: 20px;
   padding: 20px;
   text-align: center;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  transition: 0.3s all ease;
+  z-index: 1000;
+  background: #d9b310;
+  opacity: 0;
+  width: 100vw;
+}
+
+.on {
+  opacity: 1;
+}
+
+.header {
+  background-color: #0b3c5d;
+}
+
+.movieSelect {
+  background-color: #1d2731;
+}
+
+.nomHeading {
+  background-color: #1d2731;
+  opacity: 0;
+}
+
+.nominationsList {
+  background-color: #1d2731;
 }
